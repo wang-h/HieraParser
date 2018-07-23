@@ -39,8 +39,9 @@ To compile, do the following
             -input: path to input file of the source language.
             -align: path to alignment file.
             -model: path to model file [output].
-            -threads: the number of threads to use for training.
-            -strategy: which strategy used for training
+            -threads: the number of threads used for training.
+            -kbest: using k-best derivations, it should be a number smaller than beam size. (default: 5)
+            -strategy: which parallel strategy to use
                 [ 1. mini-batch learning, 
                   2. distributed averaging,
                   3. iteratively distributed averaging ]
@@ -59,15 +60,15 @@ To compile, do the following
 
 ## Features:
 
- 1.  It was implemented with pure built-in multi-threading library in C++11 STL.
- 2.  farmhash is used inherently to replace boost::hash_combine and std::hasher in STL.
- 3.  Added the support of multi-threading processing for parsing.
+ 1.  It was implemented with (C++11 STL) built-in multi-threading library.
+ 2.  farmhash is used, instead of boost::hash_combine or std::hasher in STL.
+ 3.  Added the multi-threading support for parsing.
 
 
 
 
 ## Comparison:
-It is faster, and more accurate, have a try please.
+Compared to [TD-BTG-Preorderer](https://github.com/google/topdown-btg-preordering), HieraParser is more accurate and fast.
 
 If you have any problem, please contact the author.
 Copyright (C) 2017 Hao WANG, Waseda University.

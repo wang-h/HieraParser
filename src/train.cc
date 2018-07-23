@@ -31,10 +31,10 @@ int main(int argc, char **argv) {
   // optional arguments
   // for batch learning
   cfg.AddConfigEntry("strategy", "1",
-                     "which strategy used for training"
-                     "[1. batch learning,\n"
-                     " 2. distributed learning (para-mix),\n"
-                     " 3. distributed learning (iter-para-mix)]",
+                     "which strategy used for training\n"
+                     "           [1. batch learning,\n"
+                     "            2. distributed learning (para-mix),\n"
+                     "            3. distributed learning (iter-para-mix)]",
                      true);
 
   cfg.AddConfigEntry(
