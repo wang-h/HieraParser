@@ -58,8 +58,8 @@ int main(int argc, char **argv) {
       "early_stop", "false",
       "using early stopping to avoid overfitting (default: false).", true);
   cfg.AddConfigEntry(
-      "shuffle", "false",
-      "shuffle the training examples during each iteration, recommended", true);
+      "shuffle", "true",
+      "shuffle the training examples during each iteration, recommended (default: true)", true);
   // cfg.AddConfigEntry(
   //     "init_param", "false",
   //     "construct normal distribution for parameter initialization, recommended", true);
