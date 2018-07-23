@@ -30,7 +30,7 @@ To compile, do the following
 
 #### 1. training the model 
 
-    ./build/bin/train -input data/train.en.annot -align data/train.en.aligned -model hierp.model
+    ./bin/train -input data/train.en.annot -align data/train.en.aligned -model hierp.model
         [main arguments]:
             -beam: maximum beam size during parsing (default 20)
             -batch: batch size of training examples.
@@ -50,7 +50,7 @@ To compile, do the following
 
 #### 2. parsing with the model 
 
-    ./build/bin/parse -input data/train.en.annot -align data/train.en.aligned -model hierp.model
+    ./bin/parse -input data/train.en.annot -align data/train.en.aligned -model hierp.model
         [main arguments]:
             -beam: maximum beam size during parsing (default 20)
             -input: path to input file of the source language.
