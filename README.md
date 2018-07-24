@@ -9,7 +9,7 @@ For the online training algorithm for Top-down BTG-based parser, please refer to
 [ACL-2015](http://www.aclweb.org/anthology/P15-1021)
 
 
-Differing from Nakagawa's implementation in which uses the online Passive-Aggressive (PA) algorithm to train preorderer, we adopt several parallel techniques to parallize the PA algorithm and  train the preorderer in parallel. This application is more fast and robust when training on automatically aligned datasets.
+Differing from Nakagawa's implementation in which using the online Passive-Aggressive (PA) algorithm to train preorderer, we adopt several parallel techniques to parallelise the PA algorithm and train the preorderer in parallel. This application is more fast and robust when training on automatically aligned datasets.
 
 
 ## Compiling and Installation
