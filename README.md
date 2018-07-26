@@ -68,7 +68,7 @@ To compile, do the following
 
 
 ## Comparison:
-Compared to [TD-BTG-Preorderer](https://github.com/google/topdown-btg-preordering), HieraParser is faster (~4 times) and more accurate.
+Compared to [TD-BTG-Preorderer](https://github.com/google/topdown-btg-preordering), HieraParser is faster (4~6 times) and more accurate.
 
 If you have any problem, please contact the author.
 
